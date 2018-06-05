@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="A1_社群快捷ICON/走出埃及LOGO.png" width="150" height="150">
+  </div>
+  <div class="navbar navbarback justify-content-end" >
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" id="fb" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_FB.png" width="30" height="30"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_LINE.png" width="30" height="30"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_Q_A.png" width="50" height="30"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_協會據點.png" width="60" height="30"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_訂閱電子報.png" width="70" height="30"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="A1_社群快捷ICON/A1_置頂ICON_愛老師諮詢專線.png" width="200" height="30"></a>
+      </li>
+      <form class="form-inline">
+        <input class="form-control w-50" type="search" placeholder="關鍵字搜尋" aria-label="Search">
+        <button class="btn btn-primary" type="submit"><img src="A1_社群快捷ICON/A1_置頂ICON_搜尋-放大鏡.png" width="20" height="20"></button>
+      </form>
+    </ul>
+  </div>
+  <div class="mt-5 mr-5">
+    <ul class="nav justify-content-end ">
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#" data-toggle="dropdown" >
+          <span class="highlight">關於我們</span>
+        </a>
+        <div class="dropdown-menu mt-3 p-1 " aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-left" href="#">我們的宗旨</a>
+          <a class="dropdown-item text-left" href="#">協會歷史</a>
+          <a class="dropdown-item text-left" href="#">協會地點</a>
+          <a class="dropdown-item text-left" href="#">機構參觀</a>
+          <a class="dropdown-item text-left" href="#">聯絡我們</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">服務工作</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">講座活動</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">代禱捐款</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">志工招募</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">出版資源</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">主題閱覽</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">影音分享</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navlink" href="#"><span class="highlight">Q&A</span></a>
+      </li>
+    </ul>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="刊頭-A.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="刊頭-A.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="刊頭-A.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="navbar navbarrow row backgroundimage">
+    <div class="col-4 navbarleft">
+      <ul class="nav  justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link nav-co" href="#"><img src="A5_愛老師諮詢專線.png" class="navbarimg" width="200" height="30"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-co active" id="v-pills-north-tab" data-toggle="pill" href="#v-pills-north" role="tab" aria-controls="v-pills-north" aria-selected="false"><span class="fontborder">北</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-co" id="v-pills-central-tab" data-toggle="pill" href="#v-pills-central" role="tab" aria-controls="v-pills-central" aria-selected="false"><span class="fontborder">中</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-co" id="v-pills-south-tab" data-toggle="pill" href="#v-pills-south" role="tab" aria-controls="v-pills-south" aria-selected="false"><span class="fontborder">南</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8 navbarright">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-north" role="tabpanel" aria-labelledby="v-pills-north-tab">
+          <ul class="nav justify-content-start">
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">總部（02）2700-2177、2377</span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">服務時間：週二～週六 </span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">10:00~12:00 / 13:00~18:00 </span></a></lo>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="v-pills-central" role="tabpanel" aria-labelledby="v-pills-central-tab">
+          <ul class="nav justify-content-start">
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">中部</span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab"></span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab"></span></a></lo>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="v-pills-south" role="tabpanel" aria-labelledby="v-pills-south-tab">
+          <ul class="nav justify-content-start">
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">南部（07）269-5707</span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">服務時間：週二 / 10:00-12:00 </span></a></lo>
+            <lo class="nav-item"><a class="nav-link nav-co"> <span class="fontbordertab">週三～週六 / 10:00~18:00 </span></a></lo>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="maincontent mt-5 col-12">
+      <nav>
+        <div class="nav nav-tabs justify-content-center " id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active navtext" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="true" >
+            <span class="divcube"></span>
+            <span class="textspacing">主題精選</span>
+          </a>
+          <a class="nav-item nav-link ml-3 mr-3 navtext" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">
+            <span class="divcube"></span>
+            <span class="textspacing">服務簡介</span>
+          </a>
+          <a class="nav-item nav-link navtext" id="nav-three-tab" data-toggle="tab" href="#nav-three" role="tab" aria-controls="nav-three" aria-selected="false">
+            <span class="divcube"></span>
+            <span class="textspacing">最新消息</span>
+          </a>
+        </div>
+      </nav>
+        <div class="tab-content justify-content-center zindexone" id="nav-tabContent">
+
+            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+
+              <div style="background-color: white; height: 50px;"></div>
+              <div class="row justify-content-end">
+                <div class="col-1">
+
+                </div>
+                <div class="col-7 mr-5">
+
+                  <div class="container" >
+                    <div class="">
+                      <span class="footerp" style="font-size: 16pt;">
+                        <img src="A6_彩紅ICON.jpg" height="20pt" width="50pt" class="mb-1">
+                        協會季刊 > 一份關心同性戀朋友的刊物
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="container py-3">
+                      <div class="card">
+                        <div class="row ">
+                          <div class="col-md-5">
+                              <img src="A4-b_家屬讀心會.png" class="w-100" >
+                            </div>
+                            <div class="col-md-7 ">
+                              <div class="card-block  pt-2">
+                                <span class="cardsmailtext">本會出版</span>
+                                <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                                <div class="cardcontent mt-4">
+                                  <p>彩虹下的約定/</p>
+                                  <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                  <p>走進新世界/</p>
+                                  <p>同性戀  聖經舊約究竟怎麼說？</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="container" >
+                    <div class="">
+                      <span class="footerp" style="font-size: 16pt;">
+                        <img src="A6_彩紅ICON.jpg" height="20pt" width="50pt" class="mb-1">
+                        精選好文
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="container py-3">
+
+                    <div class="card">
+                      <div class="row ">
+                        <div class="col-md-5">
+                            <img src="A4-b_家屬讀心會.png" class="w-100" >
+                          </div>
+                          <div class="col-md-7 ">
+                            <div class="card-block  pt-2">
+                              <span class="cardsmailtext">本會出版</span>
+                              <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                              <div class="cardcontent mt-4">
+                                <p>彩虹下的約定/</p>
+                                <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                <p>走進新世界/</p>
+                                <p>同性戀  聖經舊約究竟怎麼說？</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card mt-2 mb-2">
+                        <div class="row ">
+                          <div class="col-md-5">
+                              <img src="A4-b_家屬讀心會.png" class="w-100" >
+                            </div>
+                            <div class="col-md-7 ">
+                              <div class="card-block  pt-2">
+                                <span class="cardsmailtext">本會出版</span>
+                                <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                                <div class="cardcontent mt-4">
+                                  <p>彩虹下的約定/</p>
+                                  <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                  <p>走進新世界/</p>
+                                  <p>同性戀  聖經舊約究竟怎麼說？</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="row ">
+                            <div class="col-md-5">
+                                <img src="A4-b_家屬讀心會.png" class="w-100" >
+                              </div>
+                              <div class="col-md-7 ">
+                                <div class="card-block  pt-2">
+                                  <span class="cardsmailtext">本會出版</span>
+                                  <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                                  <div class="cardcontent mt-4">
+                                    <p>彩虹下的約定/</p>
+                                    <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                    <p>走進新世界/</p>
+                                    <p>同性戀  聖經舊約究竟怎麼說？</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                  <div class="container"><button type="button" class="btn-block btnlink">尋找更多好文</button></div>
+
+                  <div class="container mt-5 mb-3" >
+                    <div class="">
+                      <span class="footerp" style="font-size: 16pt;">
+                        <img src="A6_彩紅ICON.jpg" height="20pt" width="50pt" class="mb-1">
+                        精選好文
+                      </span>
+                    </div>
+                  </div>
+                  <div class="container py-3">
+                    <div class="card noborder mb-3">
+                      <div class="row ">
+                        <div class="col-md-3">
+                            <img src="card/書封 愛中轉化.jpg" class="w-100" >
+                          </div>
+                          <div class="col-md-9 cardslash">
+                            <div class="card-block pt-2">
+                              <span class="cardsmailtext">本會出版</span>
+                              <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                              <div class="cardcontent mt-4">
+                                <p>彩虹下的約定/</p>
+                                <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                <p>走進新世界/</p>
+                                <p>同性戀  聖經舊約究竟怎麼說？</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card noborder">
+                        <div class="row ">
+                          <div class="col-md-3">
+                              <img src="card/書封 愛中轉化.jpg" class="w-100" >
+                          </div>
+                          <div class="col-md-9 cardslash">
+                            <div class="card-block pt-2">
+                              <span class="cardsmailtext">本會出版</span>
+                              <h5 class="cardtitle mt-2">2017  春季刊</h5>
+                              <div class="cardcontent mt-4">
+                                <p>彩虹下的約定/</p>
+                                <p>追悼同性戀過來人之父—Frank Worthem</p>
+                                <p>走進新世界/</p>
+                                <p>同性戀  聖經舊約究竟怎麼說？</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="container mt-5 mb-3" >
+                    <div class="">
+                      <span class="footerp" style="font-size: 16pt;">
+                        <img src="A6_彩紅ICON.jpg" height="20pt" width="50pt" class="mb-1">
+                        影音推薦
+                      </span>
+                    </div>
+                  </div>
+                  <div class="container py-3 mb-5">
+                    <div class="row ">
+                      <div class="col-md-6">
+                        <img src="A4-b_家屬讀心會.png" class="w-100">
+                        <div class="vtitle p-3 pl-5 ">生命見證-厲真妮</div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <img src="A4-b_家屬讀心會.png" class="w-100">
+                        <div class="vtitle p-3 pl-5">形象影片</div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+
+                <div class="col-3 ">
+                  <div class="mt-5">
+                    <div class="navartitle navartext mt-3">
+                     熱門內容
+                    </div>
+                    <div class="border-bottom "></div>
+                    <ul class="navarul mt-3 ">
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                    </ul>
+                  </div>
+                  <div class="mt-5">
+                    <div class="navartitle navartext mt-3 ">
+                     最新文章
+                    </div>
+                    <div class="border-bottom "></div>
+                    <ul class="navarul mt-3">
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                      <a href="" class="alink"><li >文章標題</li></a>
+                    </ul>
+                  </div>
+                  <div class="mt-5">
+                    <div class="navartitle navartext mt-3 ">
+                     標籤尋文
+                    </div>
+                    <div class="border-bottom "></div>
+
+                  </div>
+                  <div class="mt-5">
+                    <div class="navartitle navartext mt-3">
+                     粉絲專頁
+                    </div>
+                    <div class="border-bottom"></div>
+                    <div class="mt-2 ">
+                      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Frainbow7.org.tw%2F&width=93&layout=button_count&action=like&size=large&show_faces=false&share=false&height=30&appId=1718933898179510" width="93" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="mt-1 ">
+                      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frainbow7.org.tw%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1718933898179510" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+              <div style="background-color: white; height: 50px;"></div>
+              <div class="row justify-content-end">
+                <div class="col-10 ml-5 mr-5">
+                    <p class="nav2title">服務工作</p>
+                    <p class="mt-4 nav2p">協會主要透過『愛老師諮詢專線』電話與求助者接軌，並依其需求提供相關服務。</p>
+                    <p class="nav2p">您可以參考以下說明了解協會的服務資源。</p>
+
+                </div>
+              </div>
+              <div class="row mr-4 ml-4">
+                <div class="card mr-5 ml-5 mt-5 mb-3">
+                  <div class="row">
+                    <div class="cardleft col-md-7">
+                      <img class="cardimg w-100 h-100"src="http://f.cl.ly/items/3m3U3K1E310T3L2Y3S2I/A4-b_%E5%AE%B6%E5%B1%AC%E8%AE%80%E5%BF%83%E6%9C%83.png"  >
+                      <div class="muitimg h-20">
+                        <p class="text text-center mt-1 mb-2">家屬讀心會</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5" style="background-color: #b0998e;">
+                      <div class="card-block  pt-2">
+                        <p class="cardbigtitle m-5 text-light">讓同性戀家族 重心得力</p>
+                        <div class="cardbigtext m-4 text-light">
+                          <p>在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                              在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                                在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mr-5 ml-5 mt-3 mb-3">
+                  <div class="row">
+                    <div class="cardleft col-md-7">
+                      <img class="cardimg w-100 h-100"src="http://f.cl.ly/items/3m3U3K1E310T3L2Y3S2I/A4-b_%E5%AE%B6%E5%B1%AC%E8%AE%80%E5%BF%83%E6%9C%83.png"  >
+                      <div class="muitimg h-20">
+                        <p class="text text-center mt-1 mb-2">家屬讀心會</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5" style="background-color: #747387;">
+                      <div class="card-block  pt-2">
+                        <p class="cardbigtitle m-5 text-light">讓同性戀家族 重心得力</p>
+                        <div class="cardbigtext m-4 text-light">
+                          <p>在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                              在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                                在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mr-5 ml-5 mt-3 mb-3">
+                  <div class="row">
+                    <div class="cardleft col-md-7">
+                      <img class="cardimg w-100 h-100"src="http://f.cl.ly/items/3m3U3K1E310T3L2Y3S2I/A4-b_%E5%AE%B6%E5%B1%AC%E8%AE%80%E5%BF%83%E6%9C%83.png"  >
+                      <div class="muitimg h-20">
+                        <p class="text text-center mt-1 mb-2">家屬讀心會</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5" style="background-color: #879db4;">
+                      <div class="card-block  pt-2">
+                        <p class="cardbigtitle m-5 text-light">讓同性戀家族 重心得力</p>
+                        <div class="cardbigtext m-4 text-light">
+                          <p>在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                              在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                                在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mr-5 ml-5 mt-3 mb-5">
+                  <div class="row">
+                    <div class="cardleft col-md-7">
+                      <img class="cardimg w-100 h-100"src="http://f.cl.ly/items/3m3U3K1E310T3L2Y3S2I/A4-b_%E5%AE%B6%E5%B1%AC%E8%AE%80%E5%BF%83%E6%9C%83.png"  >
+                      <div class="muitimg h-20">
+                        <p class="text text-center mt-1 mb-2">家屬讀心會</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5" style="background-color: #c69aa6;">
+                      <div class="card-block  pt-2">
+                        <p class="cardbigtitle m-5 text-light">讓同性戀家族 重心得力</p>
+                        <div class="cardbigtext m-4 text-light">
+                          <p>在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                              在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對內在的
+                                在陪伴家人過程中同性戀家屬如何面對內在的在陪伴家人過程中同性戀家屬如何面對
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <h4 class="mt-5 mb-5 text-center col-12" style="color:#e74c8b;">相關資訊，請與愛老師聯絡</h4>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+
+            </div>
+          </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footercontent">
+      <div class="footercontent mb-5" style="height: 10px;"></div>
+      <div class="footermain justify-content-center pr-5 pl-5 pt-1 pb-4">
+        <div>
+          <p class="footerp" style="font-size: 16pt;">
+            <img src="A6_彩紅ICON.jpg" height="20pt" width="50pt" class="mb-1">
+            關於RANBOW7 台灣走出埃及協會
+          </p>
+        </div>
+        <div class="nav">
+          <div class="border-top mt-3" style="border-top-color: #91A8DF !important; width:205px; border-width: 4px !important;"></div>
+          <div class="border-top mt-3" style="border-top-color: #5C68A2 !important; width:170px; border-width: 4px !important;"></div>
+        </div>
+        <div class="mt-3"  style="line-height: 30px;">
+          <span style="font-style: bold; color: #415570; ">我們堅持</span> <br>
+          <span style="color: #5C68A2;">以聖經原則一男一女的婚姻制度誒立場，幫助不快樂同性戀困擾者，勇於做上帝賜與的性別角色，並在基督裡享受豐盛的生命。</span>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-center " >
+        <div class="mb-5">
+          <p class="footerp mt-4"><a href="">台北 - 總部辦公室</a></p>
+          <p class="footerp">行政電話：(02)2700-1956</p>
+          <p class="footerp">傳真：(02)2700-1230</p>
+        </div>
+        <div class="border-left mt-5 mb-5 mr-5 ml-5" style="border-left-color: #94A8BC !important;"></div>
+        <div class="mb-5">
+          <p class="footerp mt-4"><a href="">台中 - 中區辦事處</a></p>
+          <p class="footerp">行政電話：(04)2237-2012 / 2237-2013</p>
+          <p class="footerp">傳真：(04)0000-0000</p>
+        </div>
+        <div class="border-right mt-5 mb-5 mr-5 ml-5" style="border-right-color: #94A8BC !important;"></div>
+        <div class="mb-5">
+          <p class="footerp mt-4"><a href="">高雄 - 南區辦事處</a></p>
+          <p class="footerp">行政電話：(07)269-5701</p>
+          <p class="footerp">傳真：(07)269-5730</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyrightcontent text-center">
+      <p style="margin-bottom: 0rem;">©2018 <span class="mr-2 ml-2">RAINBOW7台灣走出埃及協會</span> 版權所有</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+<style media="screen">
+  .cardbigtext{
+    letter-spacing: 3px;
+    line-height: 2;
+    font-size: 18pt;
+  }
+  .cardbigtitle{
+    font-size: 30pt;
+  }
+  .cardleft{
+    overflow:hidden;
+    padding: 0 0;
+  }
+  .muitimg{
+    background-color: rgba(66, 66, 66, .6);
+    position: absolute;
+    right:0px;
+    left: 0px;
+    bottom: 0;
+  }
+  .text{
+    color: white;
+    font-size:36pt;
+  }
+  .cardimg:hover {
+      transform: scale(1.4);
+      transition: 0.5s;
+
+  }
+  .cardright4{
+    background-color: #c69aa6;
+  }
+
+
+  .nav2title{
+    letter-spacing: 8px;
+    font-size: 30pt;
+
+  }
+
+  .nav2p{
+    letter-spacing: 8px;
+    font-size: 16pt;
+  }
+
+  .dropdown-menu.show{
+    box-shadow: 2px 3px 12px 1px #292626;
+    -webkit-box-shadow: 2px 3px 12px 1px #292626;
+    -moz-box-shadow: 2px 3px 12px 1px #292626;
+    -o-box-shadow: 2px 3px 12px 1px #292626;
+
+  }
+  .dropdown-item{
+    padding-left: 10px;
+    color: #5C68A2;
+    margin: 0;
+
+  }
+
+  .vtitle{
+    background-color: #000;
+    color: #fff;
+  }
+  .cardslash{
+    background-image: url(A4-a__好書推薦斜線底.png);
+  }
+  .noborder{
+    border: 0px ;
+  }
+  .cardcontent{
+    color: #939393;
+    line-height:10px;
+    font-size: 10pt;
+  }
+  .cardtitle{
+    color: #4D4D4D;
+    font-weight: bold;
+  }
+  .cardsmailtext{
+    color: #939393;
+    font-size: 8pt;
+  }
+
+  .btnlink{
+    background-color: #bcc9d5;
+    color: #ffffff;
+  }
+  .btnlink:hover{
+    background-color: #bcc9d5;
+    color: #73849b;
+  }
+
+  .alink{
+    color: #70439a;
+    text-decoration:none !important;
+  }
+  .alink:hover{
+    color: #447FCA;
+    text-decoration:none !important;
+
+  }
+
+
+  .navarul{
+    list-style-type: square;
+    line-height:30px;
+    letter-spacing: 2px;
+    width: 120px;
+  }
+
+  .navartitle{
+    background-color: #5C68A2;
+    color: white;
+    -webkit-clip-path:polygon(0% 0%, 100% 0%,50% 0%,60% 100%,0% 100%,0% 50%);
+    width:200px;
+    letter-spacing: 2px;
+  }
+  .navartext{
+    padding: 3px 20px;
+
+  }
+  .border-bottom{
+
+    border-bottom:3px #5C68A2 solid !important;
+  }
+
+  .footermain{
+    background-color: #BFCCEE;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .footerp{
+    height: 20px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+  }
+
+  .footercontent{
+    background-color: #CEDCF3;
+
+  }
+
+  .copyrightcontent{
+    background-color: #5C68A2;
+    color: #FFFFFF;
+    font-size: 15pt;
+
+
+  }
+
+  .divcube{
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    z-index: -1;
+  }
+
+  .textspacing{
+    letter-spacing: 4px;　
+  }
+
+   .nav-tabs .nav-link.active{
+      color: #5C68A2;
+      background-color: #fff;
+      border-color: #5C68A2 #5C68A2 ;
+      margin-top: -6px;
+      font-size: 18px;
+      z-index: 0;
+
+  }
+
+  .nav-tabs .nav-link {
+      border: 5px solid transparent;
+      border-bottom: none;
+      background: #5C68A2;
+      margin-bottom: -5px;
+      border-top-left-radius: 0rem;
+      border-top-right-radius: 0rem;
+      color: #fff;
+  }
+
+  .nav-tabs .nav-link:hover {
+      border: 5px solid #5C68A2;
+      border-bottom: none;
+      margin-bottom: -5px;
+
+  }
+
+  .navtext{
+    text-align: center;
+    padding: .5rem 3rem;
+  }
+
+  .navtext:hover{
+    text-align: center;
+    color: #A4E0D0;
+  }
+
+  .nav-tabs {
+  border-bottom: 5px solid #5C68A2;
+  }
+
+  .nav-co.active .fontborder{
+    background-color: #fff;
+    color: #5C68A2;
+  }
+
+  .fontborder:hover{
+    background-color: #fff;
+    color: #5C68A2;
+  }
+
+
+
+  .zindexone{
+    z-index: 1;
+    background: white;
+  }
+
+  .maincontent{
+    padding: 0;
+  }
+
+  .backgroundimage{
+    background-image: url("A4-a__好書推薦斜線底.png");
+    z-index: 0;
+  }
+
+  .nav-co{
+    padding: .5rem .4rem;
+  }
+
+  .fontbordertab{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 1px 3px;
+  }
+
+  .fontborder{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 1px 3px;
+    font-weight: bold;
+    border:#ffffff 1px solid;
+  }
+
+  .navbarimg{
+    z-index: 1;
+  }
+
+  .navbarul .navbarli{
+    display: inline;
+
+  }
+
+  .navbarrow{
+    padding: 0rem 1rem;
+  }
+
+  .navbarleft{
+    padding: 0;
+    background-color: #5C68A2;
+     -webkit-clip-path:polygon(0% 0%, 100% 0%,100% 100%,100% 100%,4% 100%,0% 50%);
+  }
+
+  .navbarright{
+      background-color: #6D77AB;
+       -webkit-clip-path:polygon(0% 0%, 100% 0%,100% 50%,98% 100%,100% 100%,0% 100%);
+  }
+
+  .navbarback{
+    background-image: url("A1_社群快捷ICON/A1_斜線.jpg");
+  }
+
+  .logo{
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+
+  }
+
+  .nav{
+    color: #5c68a2;
+
+  }
+
+  .navlink{
+    height: 40px;
+    color: #5c68a2;
+  }
+
+
+  .highlight:hover {
+    height: 32px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #29A5DC;
+    background-color: transparent;
+    border-bottom: 5px solid #447FCA;
+    z-index: 1;
+  }
+
+  .highlight:hover:before {
+    content: '';
+    display: inline-block;
+    border: 15px solid transparent;
+    border-top-color: #447FCA;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 15px);
+    z-index: 1;
+  }
+
+
+</style>
